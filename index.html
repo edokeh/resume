@@ -1,157 +1,185 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
 
-<head>
-    <meta charset='utf-8'/>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
-    <meta name="description" content="简历 : "/>
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>简历 by edokeh</title>
+  </head>
 
-    <title>简历</title>
-</head>
+  <body>
+    <a id="forkme_banner" href="https://github.com/edokeh/resume">View on GitHub</a>
+    <div class="shell">
 
-<body>
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>简历</h1>
+            <h2></h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
 
-<!-- HEADER -->
-<div id="header_wrap" class="outer">
-    <header class="inner">
-        <a id="forkme_banner" href="https://github.com/edokeh/resume">View on GitHub</a>
-
-        <h1 id="project_title">简历</h1>
-
-        <h2 id="project_tagline"></h2>
-
-        <section id="downloads">
-            <a class="zip_download_link" href="https://github.com/edokeh/resume/zipball/master">Download this project as
-                a .zip file</a>
-            <a class="tar_download_link" href="https://github.com/edokeh/resume/tarball/master">Download this project as
-                a tar.gz file</a>
-        </section>
-    </header>
-</div>
-
-<!-- MAIN CONTENT -->
-<div id="main_content_wrap" class="outer">
-    <section id="main_content" class="inner">
-        <h1>基本情况</h1>
-
-        <ul>
-            <li>Email: <a href="mailto:edokeh@163.com">edokeh@163.com</a><br>
-            </li>
-            <li>Blog: <a href="http://ChaosKeh.com">http://ChaosKeh.com</a><br>
-            </li>
-            <li>GitHub: <a href="http://github.com/edokeh">http://github.com/edokeh</a><br>
-            </li>
-        </ul>
-        <h1>教育情况</h1>
-
-        <p>2003-2007 南京大学 电子商务系 </p>
-
-        <h1>技能</h1>
-
-        <ul>
-            <li>精通 Ruby 与 Rails</li>
-            <li>精通 Javascript 与 DOM 编程，熟练掌握 HTML5 的部分技术</li>
-            <li>熟练使用 HTML 与 CSS</li>
-            <li>熟悉 Web 交互设计，了解用户体验</li>
-            <li>熟练使用 Java 与 Spring</li>
-            <li>熟悉常见架构，能进行中小型网站架构设计</li>
-            <li>熟悉 Linux 与常用软件</li>
-        </ul>
-
-        <h1>工作经历</h1>
-
-        <h2>焦点科技股份有限公司</h2>
-
-        <p>Ruby 工程师 / 前端工程师 / 技术经理</p>
-
-        <p>2008/1 - current </p>
-
-        <p>这是一家大型 B2B 外贸平台，我在其中承担过 Rails 项目技术经理、前端技术经理等角色</p>
-
-        <h1>项目经历</h1>
-
-        <h2>新一站 HTML5 触屏版</h2>
-
-        <p><strong>2012/12 - 2013/2</strong></p>
-
-        <p></p>
-
-        <p>新一站是一个保险网购平台，为了拓展渠道，所以针对 iPhone 和 Android 用户开发了这个 HTML5 的网页版本。</p>
-
-        <p>该项目的前端架构基于 SeaJS 和 Zepto 。我参与架构设计，并承担了前端开发的大部分工作</p>
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/edokeh/resume/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/edokeh/resume/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
 
 
-        <h2>网页版麦通</h2>
-
-        <p><strong>2012/7 - 2012/10</strong></p>
-
-        <p>一个 Web 即时聊天系统，作为第三方应用为公司其他平台提供服务。我在其中负责一部分架构设计、所有的交互设计和前端编码</p>
-
-        <p>项目基于 Cometd 实现服务器推送，通过 Mina 与后端逻辑服务器进行通信，服务器使用了 Redis 缓存</p>
-
-        <p>前端的架构基于 SeaJS 模块加载器和 Backbone 框架。</p>
-
-        <h2>百卓采购平台</h2>
-
-        <p><strong>2011/3 - 2012/12</strong></p>
-
-        <p>一个基于采购模式的电子商务网站( <a href="http://www.abiz.com">http://www.abiz.com</a> )。我作为前端技术经理，负责项目的前端技术选型、难点攻关、代码 review
-            、人员培养等</p>
-
-        <p>项目后端使用 SpringMVC/iBatiS ，项目前期搭建开发框架时，我将 Rails 框架的一些特性移植到 SpringMVC ，例如 CookieBased Session, 跨请求传值, Layout 模板,
-            Restful 风格的规范, 模仿 Rails 的 VelocityTool 等等</p>
-
-        <p>项目的前端采用 jQuery 作为基础框架，项目进入迭代后，我主要负责基础组件的编写，整体代码的把控，所有前端人员的培养等工作</p>
-
-        <h2>百分百物流网</h2>
-
-        <p><strong>2010/2 - 2010/11</strong></p>
-
-        <p>一个物流信息的 B2B 平台( <a href="http://www.bfb56.com">http://www.bfb56.com</a> )，我作为技术经理，负责项目技术攻关、人员培养等工作。</p>
-
-        <p>项目采用 Rails 作为开发框架，初期由于对 Rails 不够精通，经历了很大的困难，经过半个月的攻关，基本解决了难点问题。
-            项目过程中对组内成员进行了细致的培养，并达到了非常好的效果。</p>
-
-        <h2>DMS 开发管理系统</h2>
-
-        <p><strong>2009/2 - 2009/12</strong></p>
-
-        <p>公司内部开发管理系统，用于监控、统计、分析全公司的程序开发情况，能够检测到开发过程中的异常情况并报警。</p>
-
-        <p>项目采用 jruby/rails 搭建 web 界面，使用 Java 抓取数据和生成图表。</p>
-
-        <p>在项目过程中接触到大量项目管理的知识，积累了对于项目管理方面的经验。</p>
-
-        <h2>商聚园社区</h2>
-
-        <p><strong>2008/5 - 2008/12</strong></p>
-
-        <p>一个使用 Rails 搭建的外贸论坛系统( <a href="http://www.shangjuyuan.com">http://www.shangjuyuan.com</a>
-            )。我参与了项目的需求分析及后续编码，实现了系统的后台部分。</p>
-
-        <p>系统后台的前端采用 GWT 技术搭建，通过转换器将 Java 代码转换为 Javascript ，这里我积累了大量富应用网页的开发经验，接触到不少来自客户端 GUI 编程领域的知识。</p>
-
-        <h1>演讲与分享</h1>
-
-        <ul>
-            <li><a href="https://speakerdeck.com/edokeh/iphone-webappshi-zhan">《iPhone WebApp 入门实战》@焦点技术大会2011</a></li>
-            <li><a href="https://speakerdeck.com/edokeh/mo-kuai-hua-de-jav">《模块化的 Javascript 开发》@焦点技术大会2012</a></li>
-            <li>32 场分享@2013</li>
-        </ul>
-    </section>
-</div>
-
-<!-- FOOTER  -->
-<div id="footer_wrap" class="outer">
-    <footer class="inner">
-        <p class="copyright">简历 maintained by <a href="https://github.com/edokeh">edokeh</a></p>
-
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-    </footer>
-</div>
+      <span class="banner-fix"></span>
 
 
-</body>
+      <section id="main_content">
+        <h1>
+<a name="" class="anchor" href="#"><span class="octicon octicon-link"></span></a>基本情况</h1>
+
+<ul>
+<li>Email:   <a href="mailto:edokeh@163.com">edokeh@163.com</a><br>
+</li>
+<li>Blog:   <a href="http://ChaosKeh.com">http://ChaosKeh.com</a><br>
+</li>
+<li>GitHub: <a href="http://github.com/edokeh">http://github.com/edokeh</a><br>
+</li>
+</ul><h1>
+<a name="-1" class="anchor" href="#-1"><span class="octicon octicon-link"></span></a>教育情况</h1>
+
+<p>2003-2007 南京大学 电子商务系 </p>
+
+<h1>
+<a name="-2" class="anchor" href="#-2"><span class="octicon octicon-link"></span></a>技能</h1>
+
+<ul>
+<li>精通 Ruby 与 Rails</li>
+<li>精通 Javascript 与 DOM 编程，熟练掌握 HTML5 的部分技术</li>
+<li>熟练使用 HTML 与 CSS</li>
+<li>熟悉 Web 交互设计，了解用户体验</li>
+<li>熟练使用 Java 与 Spring</li>
+<li>熟悉常见架构，能进行中小型网站架构设计</li>
+<li>熟悉 Linux 与常用软件</li>
+</ul><h1>
+<a name="-3" class="anchor" href="#-3"><span class="octicon octicon-link"></span></a>工作经历</h1>
+
+<h2>
+<a name="-4" class="anchor" href="#-4"><span class="octicon octicon-link"></span></a>焦点科技股份有限公司</h2>
+
+<p>Ruby 工程师 / 前端工程师 / 技术经理</p>
+
+<p>2008/1 - current </p>
+
+<p>这是一家大型 B2B 外贸平台，我在其中承担过 Rails 项目技术经理、前端技术经理等角色</p>
+
+<h2>
+<a name="-5" class="anchor" href="#-5"><span class="octicon octicon-link"></span></a>南京酷骏信息技术有限公司</h2>
+
+<p>Java 工程师</p>
+
+<p>2007/7 -- 2007/12</p>
+
+<p>这是一家小型创业公司，我在其中主导多个产品的研发，主要使用 Java/Webwork/Hibernate 等技术</p>
+
+<h1>
+<a name="-6" class="anchor" href="#-6"><span class="octicon octicon-link"></span></a>项目经历</h1>
+
+<h2>
+<a name="-html5-" class="anchor" href="#-html5-"><span class="octicon octicon-link"></span></a>新一站 HTML5 触屏版</h2>
+
+<p><strong>2012/12 - 2013/2</strong></p>
+
+<p>新一站是一个保险网购平台，为了拓展渠道，所以针对 iPhone 和 Android 用户开发了这个 HTML5 的网页版本。</p>
+
+<p>该项目的前端架构基于 SeaJS 和 Zepto 。我参与架构设计，并承担了前端开发的大部分工作。</p>
+
+<h2>
+<a name="-7" class="anchor" href="#-7"><span class="octicon octicon-link"></span></a>网页版麦通</h2>
+
+<p><strong>2012/7 - 2012/10</strong></p>
+
+<p>一个Web 即时聊天系统，作为第三方应用为公司其他平台提供服务。我在其中负责一部分架构设计、所有的交互设计和前端编码</p>
+
+<p>项目基于 Cometd 实现服务器推送，通过 Mina 与后端逻辑服务器进行通信，服务器使用了 Redis 缓存</p>
+
+<p>前端的架构基于 SeaJS 模块加载器和 Backbone 框架。</p>
+
+<h2>
+<a name="-8" class="anchor" href="#-8"><span class="octicon octicon-link"></span></a>百卓采购平台</h2>
+
+<p><strong>2011/3 - 2012/12</strong></p>
+
+<p>一个基于采购模式的电子商务网站( <a href="http://www.abiz.com">http://www.abiz.com</a> )。我作为前端技术经理，负责项目的前端技术选型、难点攻关、代码 review 、人员培养等</p>
+
+<p>项目后端使用 SpringMVC/iBatiS ，项目前期搭建开发框架时，我将 Rails 框架的一些特性移植到 SpringMVC ，例如 CookieBased Session, 跨请求传值, Layout 模板, Restful 风格的规范, 模仿 Rails 的 VelocityTool 等等</p>
+
+<p>项目的前端采用 jQuery 作为基础框架，项目进入迭代后，我主要负责基础组件的编写，整体代码的把控，所有前端人员的培养等工作</p>
+
+<h2>
+<a name="-9" class="anchor" href="#-9"><span class="octicon octicon-link"></span></a>百分百物流网</h2>
+
+<p><strong>2010/2 - 2010/11</strong></p>
+
+<p>一个物流信息的 B2B 平台( <a href="http://www.bfb56.com">http://www.bfb56.com</a> )，我作为技术经理，负责项目技术攻关、人员培养等工作。</p>
+
+<p>项目采用 Rails 作为开发框架，初期由于对 Rails 不够精通，经历了很大的困难，经过半个月的攻关，基本解决了难点问题。
+项目过程中对组内成员进行了细致的培养，并达到了非常好的效果。</p>
+
+<h2>
+<a name="dms-" class="anchor" href="#dms-"><span class="octicon octicon-link"></span></a>DMS 开发管理系统</h2>
+
+<p><strong>2009/2 - 2009/12</strong></p>
+
+<p>公司内部开发管理系统，用于监控、统计、分析全公司的程序开发情况，能够检测到开发过程中的异常情况并报警。</p>
+
+<p>项目采用 jruby/rails 搭建 web 界面，使用 Java 抓取数据和生成图表。</p>
+
+<p>在项目过程中接触到大量项目管理的知识，积累了对于项目管理方面的经验。</p>
+
+<h2>
+<a name="-10" class="anchor" href="#-10"><span class="octicon octicon-link"></span></a>商聚园社区</h2>
+
+<p><strong>2008/5 - 2008/12</strong></p>
+
+<p>一个使用 Rails 搭建的外贸论坛系统( <a href="http://www.shangjuyuan.com">http://www.shangjuyuan.com</a> )。我参与了项目的需求分析及后续编码，实现了系统的后台部分。</p>
+
+<p>系统后台的前端采用 GWT 技术搭建，通过转换器将 Java 代码转换为 Javascript ，这里我积累了大量富应用网页的开发经验，接触到不少来自客户端 GUI 编程领域的知识。</p>
+
+<h1>
+<a name="-11" class="anchor" href="#-11"><span class="octicon octicon-link"></span></a>演讲</h1>
+
+<ul>
+<li><a href="https://speakerdeck.com/edokeh/iphone-webappshi-zhan">《iPhone WebApp 入门实战》@焦点技术大会2011 </a></li>
+<li><a href="https://speakerdeck.com/edokeh/mo-kuai-hua-de-jav">《模块化的 Javascript 开发》@焦点技术大会2012 </a></li>
+</ul>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/edokeh">edokeh</a> can be found on <a href="https://github.com/edokeh/resume">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
 </html>
